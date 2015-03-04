@@ -1,0 +1,256 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Siddhant - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Author:
+% Siddhant Shrivastava (https://siddhantsci.org)
+%
+% Original repository:
+% https://github.com/sidcode/sid-resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{sid-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Siddhant}{Shrivastava}{ \urlstyle{same}\url{http://siddhantsci.org/} \\
+\href{mailto:siddhant.code@gmail.com}{siddhant.code@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{BITS Pilani}
+\descript{B.E.(Hons.) in Computer Science}
+\location{Expected July 2016 | Pilani, India}
+Department of Computer Science
+}
+\sectionsep
+
+\subsection{St. Joseph's Academy}
+\location{Grad. May 2012 | Dehra Dun, India}
+\location{I.S.C (Class XII) : 94.75 / 100\\
+I.C.S.E (Class X): 93.2 / 100}
+%\location{Top 10 Students of the batch (all years)}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/sidcode}{\bf sidcode} \\
+LinkedIn://  \href{https://in.linkedin.com/in/siddhantshrivastava}{\bf siddhantshrivastava} \\
+Google+://  \href{https://plus.google.com/+SiddhantShrivastava}{\bf +SiddhantShrivastava} \\
+Twitter://  \href{https://twitter.com/siddhantcode}{\bf @siddhantcode} \\
+Quora://  \href{https://www.quora.com/Siddhant-Shrivastava}{\bf Siddhant-Shrivastava}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Computer Networks\\
+Network Programming \\
+Compiler Construction\\
+Robotics\\
+Operating Systems \\
+Logic in Computer Science \\
+Programming Languages \\
+Database Systems\\
+Number Theory\\
+Computer Architecture\\
+Discrete Structures\\
+Data Structures \& Algorithms\\
+Calculus \& Linear Algebra\\
+Probability \& Statistics\\
+Multi-Agent Systems in Robotics\\
+{\footnotesize \textit{\textbf{(Study Oriented Project, BITS Pilani) }}} \\
+
+Data Scientist’s Toolbox\\
+{\footnotesize \textit{\textbf{(John Hopkins University, Coursera)}}}\\
+Introduction to Logic\\
+{\footnotesize \textit{\textbf{(Stanford University, Coursera) }}} \\
+
+%Web Development\\
+%{\footnotesize \textit{\textbf{(Center for Software Development, BITS Pilani) }}} \\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\location{Languages and OSs:}Python \textbullet{}
+C \textbullet{} C++ \textbullet{} R\textbullet{} Assembly\textbullet{}\\ MySQL
+\textbullet{}Java\textbullet{}Linux\textbullet{}Windows\textbullet{}MacOS\\
+\location{Scientfic Research:}
+\LaTeX\ \textbullet{} ROS(Robotics) \textbullet{}SciPy\textbullet{}Sockets API\textbullet{}OpenCV\textbullet{} Matlab \textbullet{} 
+TinyOS(nesC)\\
+\location{Presentation \& Media Creation:}
+reveal.js\textbullet{}Adobe Tools\textbullet{}MS Office\\
+%reveal.js\textbullet{}impress.js\textbullet{}Adobe Tools\textbullet{}Audacity\textbullet{}MS Office
+\location{Photography \textbullet{}Origami \textbullet{}Trekking}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Awards} 
+%\begin{tabular}{rll}
+%2014	     & top 52/2500  & KPCB Engineering Fellow\\
+%\end{tabular}
+%\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{\href{http://www.bits-pilani.ac.in/pilani/computerscience/WearablePervasiveNetworkingLaboratory}{Wearable, Pervasive \& Networking Lab, BITS Pilani}}
+\descript{Undergrad Researcher for Project \textbf{BITS-LifeGuard}}
+\location{May 2014 – Present | Pilani, India}
+\vspace{\topsep}
+\begin{tightemize}
+\item Established real-time fault-tolerant sensor fusion in Body Area Networks with \textbf{\href{http://www.bits-pilani.ac.in/pilani/rahulbanerjee/profile}{Prof Rahul Banerjee}}, \textbf{\href{http://universe.bits-pilani.ac.in/pilani/rajkiran/profile}{Rajkiran Reddy}}, 
+and \textbf{\href{https://www.linkedin.com/pub/gokula-krishnan/82/972/838}{Gokul Krishnan}}
+\item Integrated the Shimmer bio-sensor platform, Raspberry Pi, and Arduino via Bluetooth, Linux, and Embedded System programming.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{http://www.bits-pilani.ac.in/pilani/computerscience/EmbeddedSystemsRoboticsLaboratory}{Robotics Lab, BITS Pilani}}\\
+%\footnotesize {\textbf{Integrated Swarm Planning and Intelligent Robots Engineering Lab, BITS Pilani}}\\
+\descript{Undergrad Robotics Researcher}
+\location{Aug 2013 – Present | Pilani, India}
+% \vspace{\topsep}
+\begin{tightemize}
+\item Working with \textbf{\href{http://universe.bits-pilani.ac.in/pilani/avinash/Profile}{Mr. Avinash Gautam}} on the ROS-based TurtleBot to study open problems in Robotics and experiment with Human-Robot interaction.
+%\item Implemented popular Path planning algorithms on the epuck robot platform.
+\item Programmed a multi-agent system with the Java Agent Development framework (JADE) to simulate Distributed Terrain Coverage algorithms.   
+\end{tightemize}
+\sectionsep
+
+\runsubsection {\href{http://www.bits-pilani.ac.in/pilani/computerscience/MultimediaHCILaboratory}{Multimedia \& HCI Lab, BITS Pilani}}\\
+\location{Dec 2014 – Present | Pilani, India}
+%\vspace{\topsep}
+\begin{tightemize}
+\item Set up a Raspberry Pi based Beowulf cluster with \textbf{\href{http://www.bits-pilani.ac.in/pilani/pranjalranjan/profile}{Pranjal Ranjan}}
+\item "Infrastructure-as-a-Service" variant of experimental Hybrid Cloud of BITS Pilani - \textbf{Shakti}
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{\href{http://www.iirs.gov.in/}{Indian Institute of Remote Sensing, \href {http://www.isro.gov.in/}{ISRO}}}\\
+\descript{Software Engineering Intern \& Algorithms Researcher}
+\location{May 2014 – Jul 2014 | Dehra Dun, India}
+Collaborated with scientists to develop OpenImagine, a satellite imagery geoprocessing software.  
+Implemented Enhancement, PCA and Fuzzy clustering.
+\sectionsep
+
+\runsubsection{\href{http://embryo.bits-pilani.ac.in/}{Project BITS Embryo}}
+\descript{| Editorial Team Lead}
+\location{Aug 2012 – Present | Pilani, India}
+ % Hacky fix for awkward extra vertical space
+Contacted speakers and coordinated several online talks using Cisco WebEx and Jabber Telepresence. Science and Technology writer for \textit{Aurora}, a campus newspaper.
+\sectionsep
+
+\runsubsection {\href{https://wiki.mozilla.org/BITS_Firefox_Community}{BITS Firefox Community}}
+\descript{| Co-founder and Tech team lead}
+\location{Dec 2013 – Present | Pilani, India}
+Conducted talks, install fests, and events to spread awareness about Linux and FOSS in the campus. Working towards providing Debian repositories on the BITS LAN.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications} 
+\bibliographystyle{abbrv}
+\bibliography{citations}
+\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
+
